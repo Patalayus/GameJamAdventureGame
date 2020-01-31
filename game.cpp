@@ -5,7 +5,8 @@
 using namespace std;
 
 int main(){
-    int answer1, answer2;
+    string answer1;
+    int answer2;
     std::cout << "please enter your name" << std::endl;
     std::cin >> answer1;
     std::cout << "welcome to my game! " << answer1;
