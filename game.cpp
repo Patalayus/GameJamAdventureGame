@@ -15,10 +15,15 @@ void introduction(){
     std::cin >> answer3;
     if(answer3==1){
         std::cout << "alright lets get to it!" << std::endl;
+        secondary();
     }else if(answer3==2){
         std::cout << "ah okay then..." << std::endl;
         introduction();
     }
+}
+
+void secondary(){
+    std::cout << "" << std::endl;
 }
 
 int main(){
@@ -39,6 +44,3 @@ class characterIdentity{
         string name;
 };
 
-void secondary(){
-
-}
