@@ -4,6 +4,11 @@
 #include <string>
 using namespace std;
 
+//this is where the first quest is given
+void secondary(){
+    std::cout << "" << std::endl;
+}
+
 //below is the main function for the start of the game where the main plot is given
 void introduction(){
     int answer3;
@@ -21,11 +26,6 @@ void introduction(){
         std::cout << "ah okay then..." << std::endl;
         introduction();
     }
-}
-
-//this is where the first quest is given
-void secondary(){
-    std::cout << "" << std::endl;
 }
 
 //this is the main method where a user will input their name
