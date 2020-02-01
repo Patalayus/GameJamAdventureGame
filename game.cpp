@@ -4,6 +4,7 @@
 #include <string>
 using namespace std;
 
+//below is the main function for the start of the game where the main plot is given
 void introduction(){
     int answer3;
     std::cout << "It was a long time ago and the night was young" << std::endl;
@@ -22,10 +23,12 @@ void introduction(){
     }
 }
 
+//this is where the first quest is given
 void secondary(){
     std::cout << "" << std::endl;
 }
 
+//this is the main method where a user will input their name
 int main(){
     string answer1;
     int answer2;
@@ -38,6 +41,7 @@ int main(){
     return 0;
 }
 
+//this is the class for the main character
 class characterIdentity{
     private:
         int age;
